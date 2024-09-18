@@ -1,0 +1,9 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your additional custom CSS */
+.App {
+  background-color: #4a4a4a;
+}
