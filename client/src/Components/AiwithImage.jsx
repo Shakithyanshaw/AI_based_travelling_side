@@ -12,9 +12,7 @@ class AiwithImage extends Component {
       loading: false,
     };
     // Initialize Google Generative AI with API key
-    this.genAI = new GoogleGenerativeAI(
-      'AIzaSyAz6lyQmy_GCN9SBgQIyMP7fqXZiC47gT8'
-    );
+    this.genAI = new GoogleGenerativeAI('your key');
     // Bind event handlers
     this.handleImageChange = this.handleImageChange.bind(this);
     this.aiImageRun = this.aiImageRun.bind(this);
