@@ -46,7 +46,7 @@ export default function Map({
       <div style={{ height: '100%', width: '100%' }}>
         <GoogleMapReact
           key={JSON.stringify(places)} // Unique key based on places data
-          bootstrapURLKeys={{ key: 'AIzaSyBS_Uy_JuXB41jrBe1GIpYsw_C9bLQevhI' }} // Replace with your Google Maps API key
+          bootstrapURLKeys={{ key: 'your key' }} // Replace with your Google Maps API key
           defaultCenter={coordinates}
           center={coordinates}
           defaultZoom={15}

@@ -3,9 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const AiwithText = () => {
   // Initialize Generative AI with API key
-  const genAI = new GoogleGenerativeAI(
-    'AIzaSyAz6lyQmy_GCN9SBgQIyMP7fqXZiC47gT8'
-  );
+  const genAI = new GoogleGenerativeAI('your key');
 
   // State variables for user input, AI response, and loading state
   const [search, setSearch] = useState('');
